@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             var xhr = new XMLHttpRequest();
             // Send the RFQ files to the n8n workflow instead of the Flask route
-            xhr.open('POST', 'https://ezcar.app.n8n.cloud/webhook/471452f4-bfab-4775-86e6-49333b16bfe0', true);
+            xhr.open('POST', 'https://ezcar.app.n8n.cloud/webhook-test/471452f4-bfab-4775-86e6-49333b16bfe0', true);
 
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === XMLHttpRequest.DONE) {
